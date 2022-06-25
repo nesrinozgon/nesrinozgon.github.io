@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text|Raleway:100);
+
+* {margin:0; padding:0; border:0; list-style:none;}
+
+html {
+  background: #fff;
+  background: -moz-linear-gradient(top, #eee 0%, #fff 50%) fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eee), color-stop(50%,#fff)) fixed;
+  padding: 0 20px;
+}
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  padding: 20px;
+  color: #666;
+  background: #fff url(arkaplan.png) no-repeat right bottom;
+  max-width: 790px;
+  min-height: 630px;
+  margin: auto;
+  font-size: 100%;
+  padding: 0 0 0 80px;
+  line-height: 140%;
+  border-top: 1px solid #fff;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Crimson Text';
+  font-weight: normal;
+  margin: 75px 0 40px 0;
+  font-size: 120%;
+  letter-spacing: 6px;
+  color: #85cff4;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 190%;
+  max-width: 380px;
+}
+
+h1 span {
+  border-bottom: 1px solid #85cff4;
+  display: block;
+  font-size: 155%;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #85cff4;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: .5em;
+  letter-spacing: 1px;
+  max-width: 300px;
+}
+
+div.bars {
+  display: block;
+  width: 58px;
+  height: 211px;
+  background: #c9e8fb;
+  position: absolute;
+  top: 58px;
+  left: 0;
+  border-top: 89px solid #85cff4 !important;
+}
+
+.map {
+  margin-top: 20px;
+  display: inline-block;
+  line-height: 100%;
+  padding: 6px;
+  background: #eae5db;
+}
+
+.address {
+  margin: 10px 0;
+}
+
+.address span {
+  display: block;
+}
+
